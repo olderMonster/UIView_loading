@@ -13,6 +13,7 @@
 		5787DDAF215DF3D400DDF7B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5787DDAE215DF3D400DDF7B4 /* Assets.xcassets */; };
 		5787DDB2215DF3D400DDF7B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5787DDB0215DF3D400DDF7B4 /* LaunchScreen.storyboard */; };
 		5787DDB5215DF3D400DDF7B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5787DDB4215DF3D400DDF7B4 /* main.m */; };
+		5787DDBE215DF3F500DDF7B4 /* UIView+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 5787DDBD215DF3F500DDF7B4 /* UIView+Loading.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5787DDB1215DF3D400DDF7B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5787DDB3215DF3D400DDF7B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5787DDB4215DF3D400DDF7B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5787DDBC215DF3F500DDF7B4 /* UIView+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Loading.h"; sourceTree = "<group>"; };
+		5787DDBD215DF3F500DDF7B4 /* UIView+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Loading.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				5787DDA6215DF3D400DDF7B4 /* AppDelegate.m */,
 				5787DDA8215DF3D400DDF7B4 /* ViewController.h */,
 				5787DDA9215DF3D400DDF7B4 /* ViewController.m */,
+				5787DDBB215DF3F500DDF7B4 /* Categories */,
 				5787DDAB215DF3D400DDF7B4 /* Main.storyboard */,
 				5787DDAE215DF3D400DDF7B4 /* Assets.xcassets */,
 				5787DDB0215DF3D400DDF7B4 /* LaunchScreen.storyboard */,
@@ -69,6 +73,15 @@
 				5787DDB4215DF3D400DDF7B4 /* main.m */,
 			);
 			path = UIView_loading;
+			sourceTree = "<group>";
+		};
+		5787DDBB215DF3F500DDF7B4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5787DDBC215DF3F500DDF7B4 /* UIView+Loading.h */,
+				5787DDBD215DF3F500DDF7B4 /* UIView+Loading.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5787DDAA215DF3D400DDF7B4 /* ViewController.m in Sources */,
+				5787DDBE215DF3F500DDF7B4 /* UIView+Loading.m in Sources */,
 				5787DDB5215DF3D400DDF7B4 /* main.m in Sources */,
 				5787DDA7215DF3D400DDF7B4 /* AppDelegate.m in Sources */,
 			);
